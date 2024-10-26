@@ -1,0 +1,16 @@
+.skills-element{
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    background-color: navy;
+    align-items: center;
+    justify-content: center;
+}
+.se-child{
+    text-align: center;
+    height: fit-content;
+}
+.sec-icon{
+    width: 10vw;
+}

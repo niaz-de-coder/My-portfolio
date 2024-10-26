@@ -1,0 +1,45 @@
+.header-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-nav, .navbar{
+    width: 100vw;
+    height: 10vh;
+}
+.header-element{
+    width: 100vw;
+    height: 90vh;
+}
+.text-white{
+    color: white !important;
+}
+.text-bold{
+    font-weight: bold;
+}
+.nav-item:hover .nav-link{
+    color: skyblue !important;
+}
+.he-welcome{
+    font-size: 5vw;
+}
+.text-skyblue{
+    color: skyblue;
+}
+.he-post{
+    font-size: 1.8vw;
+}
+.navbar-toogler-icon{
+    background-color: white;
+}
+
+
+
+@media (max-width:780px) {
+    .header-page{
+        background-position: right;
+    }
+}

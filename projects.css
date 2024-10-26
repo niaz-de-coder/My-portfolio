@@ -1,0 +1,31 @@
+.projects-section{
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.ps-element{
+    width: 90vw;
+    height: 90vh;
+}
+.pse-child{
+    margin-bottom: 1vw;
+}
+.psec-cover{
+    height: 30vh;
+    transition: 0.3s;
+}
+
+.pse-child:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.psec-desc{
+    font-size: 13px;
+}
+
+@media (max-width: 780px) {
+    .pse-child{
+        flex-direction: column !important;
+    }
+}
