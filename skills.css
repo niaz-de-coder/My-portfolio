@@ -14,3 +14,8 @@
 .sec-icon{
     width: 10vw;
 }
+@media (max-width:700px) {
+    .skills-element{
+        grid-template-rows: 25vh 25vh 25vh;
+    }
+}
