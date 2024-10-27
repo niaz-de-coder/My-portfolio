@@ -21,13 +21,13 @@
     font-weight: bold;
 }
 .nav-item:hover .nav-link{
-    color: skyblue !important;
+    color: aqua !important;
 }
 .he-welcome{
     font-size: 5vw;
 }
 .text-skyblue{
-    color: skyblue;
+    color: aqua;
 }
 .he-post{
     font-size: 1.8vw;
@@ -41,5 +41,15 @@
 @media (max-width:780px) {
     .header-page{
         background-position: right;
+    }
+    .he-welcome{
+        font-size: 7vw;
+    }
+    .he-post{
+        font-size: 4vw;
+    }
+    .header-element{
+        display: flex;
+        justify-content: end !important;
     }
 }
