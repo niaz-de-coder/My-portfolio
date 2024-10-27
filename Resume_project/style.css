@@ -1,0 +1,679 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    transition: 0.3s;
+}
+header{
+    background-color: #1b1c1e;
+    width: 3vw;
+    height: 80vh;
+    text-align: center;
+    display: grid;
+    grid-row-gap: 7vw;
+    transition: 0.3s;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.nav-section{
+    padding: 1vw 0 1vw;
+    background-color: #009933 ;
+    height: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.nav-section i{
+    color: white;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+.menu-element{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 1vw;
+    transition: 0.3s;
+}
+.menu-element i{
+    color: #009933;
+    transition: 0.3s;
+}
+.download-section{
+    color: #009933;
+    transition: 0.3s;
+}
+.fixed-body{
+    background-image: url("bio-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 30vw;
+    transition: 0.3s;
+}
+.fb-content{
+    height: fit-content;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 67.5vh;
+    row-gap: 1vw;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding-bottom: 0.5vw;
+    padding-bottom: 0.5vw;
+    transition: 0.3s;
+}
+.fb-content h3{
+    margin: 0;
+    font-size: 3vw;
+    color: white;
+    transition: 0.3s;
+}
+.fb-content p{
+    margin: 0;
+    color: #009933;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+.social-section{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.7vw;
+    transition: 0.3s;
+}
+.main-body{
+    background-color: #009933;
+    width: 50vw;
+    height: 80vh;
+    background-color: #1b1c1e;
+    overflow: scroll;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    scrollbar-color: #009933 #1b1c1e;
+    transition: 0.3s;
+}
+.about-me{
+    row-gap: 1vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    transition: 0.3s;
+}
+.about-me h3{
+    margin: 0;
+    color: white;
+    font-size: 2.5vw;
+    transition: 0.3s;
+}
+.am-desc{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+.am-info{
+    color: #009933;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.3s;
+}
+.div-name{
+    margin: 0;
+    color: white;
+    margin-left: 1vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2.5vw;
+    transition: 0.3s;
+}
+.skill-section{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-column-gap: 6vw;
+    transition: 0.3s;
+}
+.skill-element i{
+    color: #009933;
+    font-size: 2vw;
+    transition: 0.3s;
+}
+.skill-name{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+.skill-desc{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.education-section{
+    margin-left: 1vw;
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-column-gap: 6vw;
+    transition: 0.3s;
+    text-align: center;
+}
+.education-element{
+    border-left: 0.2vw solid #009933;
+}
+.exam-name{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+.gpa{
+    color: #009933;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+.department{
+    color: #009933;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+.ed-year{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.institution{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.board{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    header{
+        background-color: #1b1c1e;
+        width: 80vw;
+        height: 5vw;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        column-gap: 8vw;
+        transition: 0.3s;
+    }
+    .nav-section{
+        width: 5vw;
+        height: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-section i{
+        color: white;
+        font-size: 2vw;
+        background-color: #009933 ;
+        transition: 0.3s;
+    }
+    .menu-element{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 3vw;
+        transition: 0.3s;
+    }
+    .menu-element i{
+        color: #009933;
+        transition: 0.3s;
+        
+    }
+    .download-section{
+        color: #009933;
+        transition: 0.3s;
+
+    }
+    .fixed-body{
+        background-image: url("bio-img.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+        width: 80vw;
+        transition: 0.3s;
+    }
+    .fb-content{
+        height: fit-content;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 1vw;
+        background-color: rgba(0, 0, 0, 0.47);
+        padding-bottom: 0.5vw;
+        margin-top: 30vh;
+        transition: 0.3s;
+    }
+    .fb-content h3{
+        margin: 0;
+        font-size: 3vw;
+        color: white;
+        transition: 0.3s;
+    }
+    .fb-content p{
+        margin: 0;
+        color: #009933;
+        font-weight: bold;
+        font-size: 1.5vw;
+        transition: 0.3s;
+    }
+    .social-section{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        column-gap: 0.7vw;
+        transition: 0.3s;
+    }
+    .main-body{
+        background-color: #009933;
+        width: 80vw;
+        height: 50vh;
+        background-color: #1b1c1e;
+        overflow: scroll;
+        scrollbar-width: thin;
+        overflow-x: hidden;
+        scrollbar-color: #009933 #1b1c1e;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .about-me{
+        row-gap: 1vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        margin-right: 1vw;
+        transition: 0.3s;
+    }
+    .about-me h3{
+        margin: 0;
+        color: white;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .am-desc{
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .am-info{
+        color: #009933;
+        font-weight: bold;
+        font-style: italic;
+        transition: 0.3s;
+    }
+    .div-name{
+        margin: 0;
+        color: white;
+        margin-left: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .skill-section{
+        margin-left: 1vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 20vw 20vw;
+        grid-column-gap: 20vw;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .skill-element i{
+        color: #009933;
+        font-size: 3vw;
+        transition: 0.3s;
+    }
+    .skill-name{
+        color: white;
+        font-weight: bold;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .skill-desc{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .education-section{
+        margin-left: 1vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 20vw 20vw;
+        grid-column-gap: 20vw;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .education-element{
+        border-left: 0.2vw solid #009933;
+    }
+    .exam-name{
+        color: white;
+        font-weight: bold;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .gpa{
+        color: #009933;
+        font-weight: bold;
+        font-size: 2vw;
+        transition: 0.3s;
+    }
+    .department{
+        color: #009933;
+        font-weight: bold;
+        font-size: 2vw;
+        transition: 0.3s;
+    }
+    .ed-year{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .institution{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .board{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+}
+
+
+
+
+
+
+@media (max-height:800px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+    }
+    header{
+        background-color: #1b1c1e;
+        width: 80vw;
+        height: 5vw;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        column-gap: 8vw;
+        transition: 0.3s;
+    }
+    .nav-section{
+        width: 5vw;
+        height: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-section i{
+        color: white;
+        font-size: 2vw;
+        background-color: #009933 ;
+        transition: 0.3s;
+    }
+    .menu-element{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 3vw;
+        transition: 0.3s;
+    }
+    .menu-element i{
+        color: #009933;
+        transition: 0.3s;
+        
+    }
+    .download-section{
+        color: #009933;
+        transition: 0.3s;
+
+    }
+    .fixed-body{
+        background-image: url("bio-img.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+        width: 80vw;
+        transition: 0.3s;
+    }
+    .fb-content{
+        height: fit-content;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 1vw;
+        background-color: rgba(0, 0, 0, 0.47);
+        padding-bottom: 0.5vw;
+        margin-top: 30vh;
+        transition: 0.3s;
+    }
+    .fb-content h3{
+        margin: 0;
+        font-size: 3vw;
+        color: white;
+        transition: 0.3s;
+    }
+    .fb-content p{
+        margin: 0;
+        color: #009933;
+        font-weight: bold;
+        font-size: 1.5vw;
+        transition: 0.3s;
+    }
+    .social-section{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        column-gap: 0.7vw;
+        transition: 0.3s;
+    }
+    .main-body{
+        background-color: #009933;
+        width: 80vw;
+        height: 50vh;
+        background-color: #1b1c1e;
+        overflow: scroll;
+        scrollbar-width: thin;
+        overflow-x: hidden;
+        scrollbar-color: #009933 #1b1c1e;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .about-me{
+        row-gap: 1vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1vw;
+        margin-top: 1vw;
+        margin-right: 1vw;
+        transition: 0.3s;
+    }
+    .about-me h3{
+        margin: 0;
+        color: white;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .am-desc{
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .am-info{
+        color: #009933;
+        font-weight: bold;
+        font-style: italic;
+        transition: 0.3s;
+    }
+    .div-name{
+        margin: 0;
+        color: white;
+        margin-left: 1vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .skill-section{
+        margin-left: 1vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 20vw 20vw;
+        grid-column-gap: 20vw;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .skill-element i{
+        color: #009933;
+        font-size: 3vw;
+        transition: 0.3s;
+    }
+    .skill-name{
+        color: white;
+        font-weight: bold;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .skill-desc{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .education-section{
+        margin-left: 1vw;
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: 20vw 20vw;
+        grid-column-gap: 20vw;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .education-element{
+        border-left: 0.2vw solid #009933;
+    }
+    .exam-name{
+        color: white;
+        font-weight: bold;
+        font-size: 2.5vw;
+        transition: 0.3s;
+    }
+    .gpa{
+        color: #009933;
+        font-weight: bold;
+        font-size: 2vw;
+        transition: 0.3s;
+    }
+    .department{
+        color: #009933;
+        font-weight: bold;
+        font-size: 2vw;
+        transition: 0.3s;
+    }
+    .ed-year{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .institution{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .board{
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+
+}
