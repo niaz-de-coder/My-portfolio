@@ -1,0 +1,55 @@
+.bg-color-light-grey{
+    background-color: lightgray;
+}
+.bg-color-white{
+    background-color: white;
+}
+.header-section{
+    width: 100%;
+    height: 92.9vh;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.navbar-nav{
+    gap: 2vw;
+}
+.gra-bg{
+    background: linear-gradient(90deg, hsla(128, 100%, 65%, 1) 29%, hsla(209, 100%, 36%, 1) 86%);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.size{
+    font-size: 32px;
+    color:transparent;
+    background: linear-gradient(90deg, hsla(197, 100%, 64%, 1) 0%, hsla(339, 100%, 55%, 1) 100%);
+    background-clip: text;
+}
+.size:hover{
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+ .vid-title{
+    color: white;
+    font-size: 4vw;
+ }
+.vidt-2{
+    color: navy;
+}
+.vidt-3{
+    color: lightgreen;
+}
