@@ -2,6 +2,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.nav-item:hover .nav-link{
+   color: chartreuse !important;
+   transition: 0.5s ease-in-out;
+}
 .nav-link{
     color: white !important;
     font-weight: bold;
@@ -124,6 +128,76 @@ body{
     gap: 10px;
     transition: 0.3s;
  }
+.store-page{
+   width: 100%;
+   height: fit-content;
+   padding-bottom: 10px;
+   background-color: black;
+}
+.store-title{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 18px;
+}
+.store-title h3{
+   color: white;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+}
+.store-title h3 span{
+   color: chartreuse;
+}
+.store-title i{
+   color: chartreuse;
+   font-size: 32px;
+}
+.game-store-list{
+   display: grid;
+   grid-template-columns: 400px 400px 400px;
+   grid-template-rows: 300px 300px 300px ;
+   gap: 50px;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+.gsl-box{
+   background-image: url("codbo6.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   border-radius: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.gsl-box h3{
+   opacity: 0;
+   color: chartreuse;
+   font-weight: bold;
+}
+.gsl-box:hover{
+   background-image: none;
+   border: 10px solid chartreuse;
+   transform: rotate(360deg);
+   transition: 0.5s;
+}
+.gsl-box:hover h3{
+   opacity: 100%;
+   transform: rotate(360deg);
+   transition: 0.5s;
+}
+.view-more a{
+   
+}
+
+
+ /* Mobile View */
  @media (max-width: 767px){
     .con-1{
         display: flex;
