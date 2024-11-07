@@ -157,19 +157,21 @@ body{
 }
 .game-store-list{
    display: grid;
-   grid-template-columns: 400px 400px 400px;
-   grid-template-rows: 300px 300px 300px ;
-   gap: 50px;
+   height: fit-content;
+   grid-template-columns: 20% 20% 20%;
+   grid-template-rows: 30vh 30vh 30vh;
+   grid-column-gap: 10%;
+   grid-row-gap: 10vh;
    width: 100%;
    justify-content: center;
    align-items: center;
+   padding-top: 10px;
 }
 .gsl-box{
-   background-image: url("codbo6.jpg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   height: 300px;
+   height: 100%;
    border-radius: 25px;
    display: flex;
    justify-content: center;
@@ -180,6 +182,8 @@ body{
    opacity: 0;
    color: chartreuse;
    font-weight: bold;
+   font-size: 100%;
+   text-align: center;
 }
 .gsl-box:hover{
    background-image: none;
@@ -192,10 +196,33 @@ body{
    transform: rotate(360deg);
    transition: 0.5s;
 }
-.view-more a{
-   
+.nfs{
+   background-image: url("nfs.png");
 }
-
+.codbo6{
+   background-image: url("codbo6.jpg");
+}
+.asscreed{
+   background-image: url("asscreed.png");
+}
+.wukong{
+   background-image: url("wukong.jpg");
+}
+.wwe2k{
+   background-image: url("wwe2k.png");
+}
+.spiderman{
+   background-image: url("spiderman.jpeg");
+}
+.gow{
+   background-image: url("gow.jpg");
+}
+.eafc{
+   background-image: url("eafc.jpg");
+}
+.gta6{
+   background-image: url("gta6.png");
+}
 
  /* Mobile View */
  @media (max-width: 767px){
@@ -217,6 +244,14 @@ body{
         font-weight: bold;
         color: white;
         text-align: center;
+     }
+     .game-store-list{
+      display: flex;
+      flex-direction: column;
+     }
+     .gsl-box{
+      width: 40%;
+      height: 30vh;
      }
  }
 
